@@ -237,7 +237,7 @@ export default {
 
           axios(config)
             .then(res => {
-              storage.set(ACCESS_TOKEN, res.data.jwt, 7 * 24 * 60 * 60 * 1000),
+              localStorage.setItem(ACCESS_TOKEN, res.data.jwt, 7 * 24 * 60 * 60 * 1000),
               this.loginSuccess(res)
             })
             .catch(err => this.requestFailed(err))

@@ -552,7 +552,15 @@ const userNav = options => {
       },
       component: 'AdvanceForm'
     },
-
+    {
+      name: 'menu-form',
+      parentId: 10,
+      id: 3,
+      meta: {
+        title: 'QUẢN LÝ MENU'
+      },
+      component: 'MenuForm'
+    },
     // list
     {
       name: 'list',
