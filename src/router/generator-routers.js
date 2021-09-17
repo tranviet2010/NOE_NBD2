@@ -22,7 +22,7 @@ const constantRouterComponents = {
   BasicForm: () => import('@/views/form/basicForm'),
   StepForm: () => import('@/views/form/stepForm/StepForm'),
   AdvanceForm: () => import('@/views/form/advancedForm/AdvancedForm'),
-
+  MenuForm: () => import('@/views/form/menuForm/MenuForm'),
   // list
   TableList: () => import('@/views/list/TableList'),
   StandardList: () => import('@/views/list/BasicList'),
